@@ -1,10 +1,13 @@
 # Project-Verilog_ALU
 Verilog HDL과 Basys3 FPGA 보드를 이용한 4비트 ALU 설계 및 구현 프로젝트
-🟦 4-Bit ALU with Verilog HDL & Basys3 FPGA
+
+-------------
 
 간단한 4비트 ALU를 Verilog HDL로 설계 → Vivado로 합성·구현 → Basys3 FPGA에 다운로드까지 진행한 프로젝트입니다.
 큰 규모의 프로젝트는 아니지만, **FPGA 개발 전체 흐름(HDL 작성 → 시뮬 → Synthesis → P&R → Bitstream → 실동작)**을 온전히 경험하며
 “나는 Verilog를 직접 사용해봤다”는 것을 증명하기 위한 목적의 학습형 프로젝트입니다.
+
+-------------
 
 ✨ 1. 프로젝트 개요
 
@@ -33,6 +36,9 @@ FPGA 실기 동작까지 성공
 📸 Basys3 보드 사진
 
 <!-- Basys3 사진 넣기 -->
+
+-------------
+
 🔧 2. 설계 구조 (Block Diagram)
 
 본 ALU는 아래 계층 구조로 설계되었습니다.
@@ -55,6 +61,9 @@ top_ALU_basys3 (Basys3 연결)
 Vivado RTL Viewer로 생성한 회로도:
 
 <!-- RTL Viewer 스크린샷 넣기 -->
+
+-------------
+
 🧪 3. Simulation (Vivado XSIM)
 
 테스트벤치를 작성하여 모든 연산을 시뮬레이션했습니다.
@@ -71,6 +80,9 @@ T=30ns  A=0101 B=0011 Sel=011 → OR  = 0111 Zero=0
 📸 Waveform 파형 캡쳐 이미지
 
 <!-- 시뮬레이션 파형 이미지 넣기 -->
+
+-------------
+
 🗜 4. Synthesis / Implementation
 
 Vivado에서 Synthesis와 Implementation(Place & Route)를 진행하였으며 모두 정상 완료되었습니다.
@@ -100,6 +112,9 @@ Basys3 보드에서 실제로 동작하는 모습입니다.
 🎞 FPGA 작동 영상(GIF/MP4)
 
 <!-- 영상 -->
+
+-------------
+
 📄 7. 핵심 Verilog 코드
 ▶ half_adder
 module half_adder(
@@ -155,6 +170,8 @@ module alu_4bit(
 );
     ...
 endmodule
+
+-------------
 
 📚 8. 개발 과정에서 배운 점
 
