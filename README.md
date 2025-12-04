@@ -9,47 +9,28 @@
 
 프로젝트 목표
 
-- Verilog HDL 학습
+- Verilog HDL 학습 및 구조적 설계(Structural Design) 방식 이해
 
-- FPGA 개발 플로우 전체 경험
+- FPGA 개발 전 과정 (HDL 작성 → 시뮬레이션 → 합성/구현 → 실기 검증) 경험
 
-- 구조적 설계(Structural Design) 방식 이해 및 적용
 
-구성 요소
+기능 (4-bit 입력 $A$와 $B$를 받아 $Result$를 출력하며, 3-bit $Sel$을 통해 다음 연산을 선택합니다.)
 
-- Half Adder
+- 산술 연산: Add, Subtract
 
-- Full Adder
+- 논리 연산: AND, OR, XOR, NOR
 
-- 4-bit Ripple Carry Adder
+- 이동 연산: Shift Left, Shift Right
 
-- 4-bit ALU
-
-입·출력 구조
-
-- Basys3 스위치 입력
-
-- LED 출력 결과 확인
-
-- 구현된 연산 기능
-
-- Add, Subtract
-
-- AND, OR, XOR, NOR
-
-- Shift Left, Shift Right
 
 핵심 구현 포인트
 
-- 모듈 기반 구조적 설계
+- 모듈 기반 계층적 구조 설계 (Half/Full Adder → RCA → ALU)
 
-- Vivado XSIM 시뮬레이션
+- Vivado XSIM을 이용한 전 기능 시뮬레이션
 
-- Synthesis 및 Implementation
+- XDC 파일을 활용한 Basys3 핀 매핑 및 실기 동작 검증
 
-- XDC 기반 핀 매핑
-
-- FPGA 실기 동작 검증
 
 📸 Basys3 보드 사진
 
