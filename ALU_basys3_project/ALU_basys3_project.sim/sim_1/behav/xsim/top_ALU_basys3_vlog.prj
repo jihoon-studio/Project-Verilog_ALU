@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../ALU_basys3_clean.srcs/sources_1/new/adder_4bit.v" \
+"../../../../ALU_basys3_clean.srcs/sources_1/new/alu_4bit.v" \
+"../../../../ALU_basys3_clean.srcs/sources_1/new/full_adder.v" \
+"../../../../ALU_basys3_clean.srcs/sources_1/new/half_adder.v" \
+"../../../../ALU_basys3_clean.srcs/sources_1/new/top_ALU_basys3.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

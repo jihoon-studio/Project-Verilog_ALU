@@ -1,0 +1,7 @@
+Running: xsim.dir/top_ALU_basys3_behav/xsimk.exe -simmode gui -wdb top_ALU_basys3_behav.wdb -simrunnum 0 -socket 61092
+Design successfully loaded
+Design Loading Memory Usage: 11416 KB (Peak: 11416 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 12132 KB (Peak: 12132 KB)
+Simulation CPU Usage: 46 ms
