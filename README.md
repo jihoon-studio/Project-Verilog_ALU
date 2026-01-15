@@ -1,7 +1,7 @@
 ## Project-Verilog_ALU
 
 간단한 4비트 ALU를 Verilog HDL로 설계한 뒤 Vivado를 이용해 합성·구현하고, Basys3 FPGA 보드에 Bitstream을 다운로드하여 실제 동작까지 확인한 프로젝트.
-대규모 프로젝트는 아니지만, **FPGA 개발 전 과정(HDL 작성 → 시뮬레이션 → Synthesis → P&R → Bitstream 생성 → 하드웨어 동작 검증)**을 모두 수행하는 것을 목표로 한다.
+대규모 프로젝트는 아니지만, **FPGA 개발 전 과정**(HDL 작성 → 시뮬레이션 → Synthesis → P&R → Bitstream 생성 → 하드웨어 동작 검증)을 모두 수행하는 것을 목표로 한다.
 
 ### ✨ 1. 프로젝트 개요
 
