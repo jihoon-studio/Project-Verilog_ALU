@@ -3,7 +3,7 @@
 간단한 4비트 ALU를 Verilog HDL로 설계한 뒤 Vivado를 이용해 합성·구현하고, Basys3 FPGA 보드에 Bitstream을 다운로드하여 실제 동작까지 확인한 프로젝트.
 대규모 프로젝트는 아니지만, **FPGA 개발 전 과정**(HDL 작성 → 시뮬레이션 → Synthesis → P&R → Bitstream 생성 → 하드웨어 동작 검증)을 모두 수행하는 것을 목표로 한다.
 
-### ✨ 1. 프로젝트 개요
+### 프로젝트 개요
 
 ---
 
@@ -41,7 +41,7 @@
 
 ---
 
-### 🔧 2. 설계 구조 (Block Diagram)
+### 설계 구조 (Block Diagram)
 
 본 ALU는 아래 계층 구조로 설계되었습니다.
 
@@ -69,7 +69,7 @@ Vivado RTL Viewer로 생성한 회로도:
 
 ---
 
-### 🧪 3. Simulation (Vivado XSIM)
+### Simulation (Vivado XSIM)
 
 테스트벤치를 작성하여 모든 연산을 시뮬레이션했습니다.
 
@@ -105,7 +105,7 @@ ADD/Sub는 adder_4bit 모듈, 나머지는 RTL 게이트 연산으로 구현됨
 
 ---
 
-### 🗜 4. Synthesis / Implementation
+### Synthesis / Implementation
 
 Vivado에서 Synthesis와 Implementation(Place & Route)를 진행하였으며 모두 정상 완료되었습니다.
 
@@ -120,7 +120,7 @@ Vivado에서 Synthesis와 Implementation(Place & Route)를 진행하였으며 �
 
 ---
 
-### 📌 5. Basys3 핀 매핑 (XDC)
+### Basys3 핀 매핑 (XDC)
 
 스위치 입력, LED 출력 핀을 XDC를 통해 명시적으로 매핑했습니다.
 
@@ -175,7 +175,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {LED[*]}]
 
 ---
 
-### ⚡ 6. FPGA 실기 동작
+### FPGA 실기 동작
 
 Basys3 보드에서 실제로 동작하는 모습입니다.
 
@@ -196,7 +196,7 @@ Basys3 보드에서 실제로 동작하는 모습입니다.
 
 ---
 
-### 📄 7. 핵심 Verilog 코드
+### 핵심 Verilog 코드
 
 <details>
 <summary> half_adder(펼치기) </summary>
@@ -279,7 +279,7 @@ endmodule
 
 ---
 
-### 📚 8. 개발 과정에서 배운 점
+### 개발 과정에서 배운 점
 
 Verilog 구조적 설계를 직접 경험
 
