@@ -181,12 +181,18 @@ Basys3 보드에서 실제로 동작하는 모습입니다.
 
 📸 FPGA 동작 사진
 
-<img width="1572" height="885" alt="화면 캡처 2025-12-04 180249" src="https://github.com/user-attachments/assets/5ed5bf40-2205-455e-aba3-7cdbcaecc8bc" />
+<img width="1200" height="800" alt="화면 캡처 2025-12-04 180249" src="https://github.com/user-attachments/assets/5ed5bf40-2205-455e-aba3-7cdbcaecc8bc" />
 
 🎞 FPGA 작동 영상(GIF/MP4)
 
-[📥 vivado.mp4 (GitHub Release)](https://github.com/jihoon-studio/Project-Verilog_ALU/releases/download/video/vivado.mp4)
+**sel(1~3)동작**
 
+<img src="docs/vivado실습영상1.gif" alt="vivado실습영상1.gif" width="800"/>
+
+
+**sel(4~7)동작**
+
+<img src="docs/vivado실습영상2.gif" alt="vivado실습영상2.gif" width="800"/>
 
 ---
 
